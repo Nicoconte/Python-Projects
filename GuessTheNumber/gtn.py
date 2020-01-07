@@ -10,7 +10,7 @@ def restart(score,name):
     if confir == "yes":
         return  main(score,name)
     elif confir == "no":
-        print("Correct! ","\n","Score ",score,"\n","Name ",name) #Let´s try to show the score with dic
+        print("Score ",score,"\n","Name ",name) #Let´s try to show the score with dic
         print("Bye ",exit())
     else:
         print("Invalid command", restart(score,name))
