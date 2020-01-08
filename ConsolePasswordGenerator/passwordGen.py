@@ -4,7 +4,7 @@ import time
 def password_generator():
     try:
         length = int(input("> "))
-        if length <= 15 or length >= 33: #valid the length (it will be used by AES method)
+        if length <= 15 or length >= 33: #validate the length (it will be used by AES method)
             print("Invalid length, try again")
             return password_generator()
         else:
