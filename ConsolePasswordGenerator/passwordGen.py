@@ -14,10 +14,10 @@ def password_generator():
             values = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" #We could use a list too if we wanted
 
             crypto_generator = SystemRandom() #Call SystemRandom class
-            p = ""
+            password = ""
             #int i = length; i > 0; i--
             for i in range(length,0,-1):
-                p = p + crypto_generator.choice(values) #concatenate all the choices from values with "p"
+                password = password + crypto_generator.choice(values) #concatenate all the choices from values with "p"
             return p
     except ValueError:
         print("The entry must be a number, let´s try again :) ")
