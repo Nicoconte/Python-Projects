@@ -13,7 +13,7 @@ def password_generator():
 
             values = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-            crypto_generator = SystemRandom() #Call the method from SystemRandom class
+            crypto_generator = SystemRandom() #Call SystemRandom class
             p = ""
             #int i = length; i > 0; i--
             for i in range(length,0,-1):
