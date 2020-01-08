@@ -11,7 +11,7 @@ def password_generator():
             print("Please, wait a second")
             time.sleep(0.5) #this make it look cooler(?
 
-            values = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            values = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" #We could use a list too if we wanted
 
             crypto_generator = SystemRandom() #Call SystemRandom class
             p = ""
