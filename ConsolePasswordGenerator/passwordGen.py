@@ -17,7 +17,7 @@ def password_generator():
             password = ""
             #int i = length; i > 0; i--
             for i in range(length,0,-1):
-                password = password + crypto_generator.choice(values) #concatenate all the choices from values with "p"
+                password = password + crypto_generator.choice(values) #concatenate all the choices from values with "password"
             return password
     except ValueError:
         print("The entry must be a number, let´s try again :) ")
