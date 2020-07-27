@@ -1,4 +1,5 @@
 import time
+import getpass
 from plyer import notification
 from db_connector import *
 
@@ -15,7 +16,7 @@ class ReportMaker:
 
         myresult = my_cursor.fetchall()
 
-        f = open("C:/Users/sunic/OneDrive/Documentos/reporte.csv","w")
+        f = open("C:/Users/"+getpass.user()+"/OneDrive/Documentos/reporte.csv","w")
         
         for i in myresult:
             text = " / ".join(i)
