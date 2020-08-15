@@ -4,6 +4,24 @@ from content import *
 
 def create_project(root_path):
 	os.mkdir(f"{root_path}")
+"""
+Proyect Name:
+	- Assets
+		- js
+			- index.js
+		- css
+			- index.css
+	- Core
+		- Classes
+		- Components
+			- header.php
+			- footer.php
+		- Scripts
+		- View
+	- index.php
+
+"""
+
 
 def create_assets(path):
 	os.makedirs(f"{path}/Assets")
@@ -18,7 +36,7 @@ def create_core(path):
 	os.makedirs(f"{path}/Core/Scripts")
 	os.makedirs(f"{path}/Core/Classes")
 
-def write_on_file(path, file_content):
+def create_and_write_file(path, file_content):
 	file = None
 
 	try:
@@ -42,11 +60,11 @@ def main():
 	create_assets(root_path)
 	create_core(root_path)
 
-	write_on_file(f"{root_path}/Assets/js/index.js", js)
-	write_on_file(f"{root_path}/Assets/css/index.css", css)
-	write_on_file(f"{root_path}/Core/Components/Header.php", header)
-	write_on_file(f"{root_path}/Core/Components/Footer.php", footer)
-	write_on_file(f"{root_path}/index.php", index)
+	create_and_write_file(f"{root_path}/Assets/js/index.js", js)
+	create_and_write_file(f"{root_path}/Assets/css/index.css", css)
+	create_and_write_file(f"{root_path}/Core/Components/Header.php", header)
+	create_and_write_file(f"{root_path}/Core/Components/Footer.php", footer)
+	create_and_write_file(f"{root_path}/index.php", index)
 
 
 if __name__ == "__main__":

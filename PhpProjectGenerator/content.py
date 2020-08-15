@@ -36,7 +36,7 @@ $p = "";
 if(isset($_GET['p'])) {
 	$p = $_GET['p'];
 } else {
-	$p = "Player";
+	$p = "Main file here";
 }
 
 ?>
