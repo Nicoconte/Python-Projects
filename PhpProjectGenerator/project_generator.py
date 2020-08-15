@@ -1,9 +1,6 @@
 import os
-import time
 from content import *
 
-def create_project(root_path):
-	os.mkdir(f"{root_path}")
 """
 Proyect Name:
 	- Assets
@@ -22,6 +19,8 @@ Proyect Name:
 
 """
 
+def create_project(root_path):
+	os.mkdir(f"{root_path}")
 
 def create_assets(path):
 	os.makedirs(f"{path}/Assets")
