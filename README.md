@@ -8,3 +8,4 @@ Proyectos hasta el dia de la fecha:
 - Generador de contraseñas: Queres una contraseña robusta? Entonces usa ese script y genera una!
 - Generador de reportes: Originalmente fue utilizado para generar reportes de manera automatica a cierta hora. Hoy en dia no se usa, pero sigue siendo util para un futuro uso
 - Conversores: Texto a binario - Binario a texto - Decimal a binario - Binario a decimal
+- Generador de proyectos para PHP: Fue creado para ahorrar tiempo al momento de crear la estructura para un proyecto basico php. Crea los directorios y sus respectivos archivos. Los mismos quedan listos para su utilizacion. 
