@@ -1,0 +1,14 @@
+{
+    "sword": {
+        "sprite": "/",
+        "cost": "100"
+    },
+    "gold": {
+        "sprite": "$",
+        "cost": 0
+    },
+    "potion": {
+        "sprite": "0",
+        "cost": "300"
+    }
+}
